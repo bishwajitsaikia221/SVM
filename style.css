@@ -1,0 +1,17 @@
+.jumbotron, .card {
+  padding: 2rem 1rem;
+
+  margin-bottom: 2rem;
+
+  border-radius: 0.3rem;
+
+  background: #000064; /* old browsers fallback color*/
+
+  background: -webkit-linear-gradient(to right, #1badd8, #00003e);
+
+  background: linear-gradient(to right, #1badd8, #00003e);
+}
+
+.hd1 {
+  color: #fff;
+}
