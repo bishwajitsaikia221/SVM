@@ -1,4 +1,8 @@
-.jumbotron, .card {
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+  font-family: 'PT Serif', serif;
+}
+.jumbotron {
   padding: 2rem 1rem;
 
   margin-bottom: 2rem;
@@ -6,12 +10,37 @@
   border-radius: 0.3rem;
 
   background: #000064; /* old browsers fallback color*/
-
-  background: -webkit-linear-gradient(to right, #1badd8, #00003e);
-
-  background: linear-gradient(to right, #1badd8, #00003e);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,6,95,1) 8%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
 }
 
 .hd1 {
   color: #fff;
+}
+
+.card{
+  padding: 1rem 1rem;
+  border-radius: 0.3rem;
+  background: #000064; /* old browsers fallback color*/
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,6,95,1) 8%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+}
+.logo-image{
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  
+}
+
+.uppernav{
+  background: #000064; /* old browsers fallback color*/
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,6,95,1) 8%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 300px !important;
 }
